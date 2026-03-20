@@ -18,6 +18,7 @@ h1 {
   text-align: center;
   padding: 160px 20px;
   margin: 3%;
+  border-radius: 10px;
 }
 
 .hero p {

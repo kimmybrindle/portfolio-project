@@ -64,6 +64,10 @@ h1 {
   padding-top: 50px;
 }
 
+.img-fluid {
+  border-radius: 5px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;

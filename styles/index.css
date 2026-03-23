@@ -13,7 +13,8 @@ h1 {
   font-size: 96px;
 }
 
-.hero {
+.hero,
+.about-hero {
   background-color: white;
   text-align: center;
   padding: 160px 20px;
@@ -25,6 +26,28 @@ h1 {
   font-family: "Playfair", serif;
   font-weight: normal;
   font-size: 24px;
+}
+
+.about-hero {
+  font-family: var(--heading-font-family);
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.about-hero h2 {
+  font-size: 20px;
+}
+.about-hero p {
+  font-family: "Playfair", serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.about-section-content {
+  padding: 10px;
 }
 
 .btn-branding {
@@ -72,5 +95,12 @@ h1 {
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
+  }
+  .about-hero {
+    padding: 0px;
+    text-align: center;
+  }
+  .about-picture {
+    margin-bottom: 5px;
   }
 }

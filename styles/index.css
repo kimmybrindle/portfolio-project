@@ -12,14 +12,15 @@ h1 {
   font-style: normal;
   font-size: 96px;
 }
-
-.hero,
-.about-hero {
+.background-box {
   background-color: white;
   text-align: center;
-  padding: 160px 20px;
   margin: 3%;
   border-radius: 10px;
+}
+.hero,
+.about-hero {
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -32,7 +33,8 @@ h1 {
   font-family: var(--heading-font-family);
 }
 
-.about-hero h1 {
+.about-hero h1,
+.work-hero h1 {
   font-size: 48px;
   line-height: 80px;
 }
@@ -46,7 +48,7 @@ h1 {
   font-size: 18px;
 }
 
-.about-section-content {
+.section-content {
   padding: 10px;
 }
 

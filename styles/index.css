@@ -52,6 +52,11 @@ h1 {
   padding: 10px;
 }
 
+.section-content h3 {
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  line-height: 1.5;
+}
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;

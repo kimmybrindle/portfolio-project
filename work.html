@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kimberly's portfolio. Kimberly is a front-end developer based in Los Angeles. She is a freelance developer showcasing her portfolio and looking for work."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,30 +35,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/index.css" />
-    <title>Kimberly Brindle - Portfolio</title>
+    <title>Portfolio - Kimberly Brindle</title>
   </head>
   <body>
     <div class="background-box">
       <nav class="d-flex justify-content-between align-items-center">
-        <a href="index.html">
+        <a href="index.html" title="Homepage">
           <img
             src="images/shecodeslogo.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="she codes logo"
           />
           <img
             src="images/small-shecodeslogo.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="she codes small logo"
           />
         </a>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" title="Homepage">Home</a>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li class="active"><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" title="About Kimberly">About</a></li>
+          <li class="active">
+            <a href="work.html" title="Kimberly's Work">Work</a>
+          </li>
+          <li><a href="contact.html" title="Contact Kimberly">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -67,26 +73,42 @@
       <div class="section-content">
         <div class="row">
           <div class="col-md-6 mb-4 project-square">
-            <img class="img-fluid" src="images/yogurt.png" alt="" />
+            <img
+              class="img-fluid"
+              src="images/yogurt.png"
+              alt="yogurt project"
+            />
             <h3 class="text-center mt-3 mb-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4 project-square">
-            <img class="img-fluid" src="images/weather.png" alt="" />
+            <img
+              class="img-fluid"
+              src="images/weather.png"
+              alt="weather project"
+            />
             <h3 class="text-center mt-3 mb-0">Weather Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and Javascript
             </p>
           </div>
           <div class="col-md-6 mb-4 project-square">
-            <img class="img-fluid" src="images/dictionary.png" alt="" />
+            <img
+              class="img-fluid"
+              src="images/dictionary.png"
+              alt="dictionary app"
+            />
             <h3 class="text-center mt-3 mb-0">Dictionary App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and React
             </p>
           </div>
           <div class="col-md-6 mb-4 project-square">
-            <img class="img-fluid" src="images/translation.png" alt="" />
+            <img
+              class="img-fluid"
+              src="images/translation.png"
+              alt="translation app"
+            />
             <h3 class="text-center mt-3 mb-0">Translation App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, and React
@@ -95,5 +117,49 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div
+        class="contact-box background-box d-flex justify-content-between d-none d-md-flex w-50 align-items-center mx-auto"
+      >
+        <div class="text-center">
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div class="btn btn-branding">
+          <a href="contact.html" title="Contact Kimberly">Contact Me</a>
+        </div>
+      </div>
+      <div class="background-box">
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:kimmybrindle@gmail.com"
+            class="email-link"
+            title="Email Kimberly"
+            >kimmybrindle@gmail.com</a
+          >
+        </div>
+        <div class="social-links text-center">
+          <a href="https://instagram.com" target="_blank" title="Github Profile"
+            ><i class="fa-brands fa-instagram"></i></a
+          ><a
+            href="https://github.com/kimmybrindle"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i></a
+          ><a href="https://facebook.com" target="_blank" title="Github Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+      <p class="text-center text-muted">
+        This project was coded by Kimberly Brindle and it is
+        <a
+          class="text-decoration-none text-secondary"
+          href="https://github.com/kimmybrindle/portfolio-project"
+          title="Github Project Repository"
+          >open-sourced.</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

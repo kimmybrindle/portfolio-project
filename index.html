@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kimberly is a front-end developer based in Los Angeles. She is a freelance developer showcasing her portfolio and looking for work."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,12 +35,12 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/index.css" />
-    <title>Kimberly Brindle Portfolio</title>
+    <title>Front-end Developer - Kimberly Brindle</title>
   </head>
   <body>
     <div class="background-box">
       <nav class="d-flex justify-content-between align-items-center">
-        <a href="index.html">
+        <a href="index.html" title="Homepage">
           <img
             src="images/shecodeslogo.png"
             class="logo d-none d-md-block"
@@ -50,11 +54,11 @@
         </a>
         <ul>
           <li class="active">
-            <a href="index.html">Home</a>
+            <a href="index.html" title="Homepage">Home</a>
           </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html" title="About Kimberly">About</a></li>
+          <li><a href="work.html" title="Kimberly's Work">Work</a></li>
+          <li><a href="contact.html" title="Contact Kimberly">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -62,13 +66,19 @@
     <div class="hero background-box">
       <h1>Kimberly Brindle</h1>
       <p class="mb-3">Front-end developer based in Los Angeles</p>
-      <a href="#" class="btn btn-branding">Contact Me</a>
+      <a href="contact.html" class="btn btn-branding" title="Contact Kimberly"
+        >Contact Me</a
+      >
     </div>
     <div class="container project-boxes text-center">
       <div class="row">
         <div class="col-sm-4 project-square">
           <h2 class="project-title">Yogurt Project</h2>
-          <img class="img-fluid d-none d-lg-block" src="images/yogurt.png" />
+          <img
+            class="img-fluid d-none d-lg-block"
+            src="images/yogurt.png"
+            alt="yogurt project preview"
+          />
           <div class="project-description">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
@@ -78,7 +88,11 @@
         </div>
         <div class="col-sm-4 project-square">
           <h2 class="project-title">Weather App</h2>
-          <img class="img-fluid d-none d-lg-block" src="images/weather.png" />
+          <img
+            class="img-fluid d-none d-lg-block"
+            src="images/weather.png"
+            alt="weather project preview"
+          />
           <div class="project-description">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
@@ -91,6 +105,7 @@
           <img
             class="img-fluid d-none d-lg-block"
             src="images/dictionary.png"
+            alt="dictionary app project"
           />
           <div class="project-description">
             Far far away, behind the word mountains, far from the countries
@@ -110,25 +125,40 @@
           <p class="text-muted">Let's work together!</p>
         </div>
         <div class="btn btn-branding">
-          <a href="contact.html">Contact Me</a>
+          <a href="contact.html" title="Contact Kimberly">Contact Me</a>
         </div>
       </div>
       <div class="background-box">
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:kimmybrindle@gmail.com" class="email-link"
+          <a
+            href="mailto:kimmybrindle@gmail.com"
+            class="email-link"
+            title="Email Kimberly"
             >kimmybrindle@gmail.com</a
           >
         </div>
         <div class="social-links text-center">
-          <a href="https://instagram.com" target="_blank"
+          <a href="https://instagram.com" target="_blank" title="Github Profile"
             ><i class="fa-brands fa-instagram"></i></a
-          ><a href="https://github.com/kimmybrindle" target="_blank"
+          ><a
+            href="https://github.com/kimmybrindle"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i></a
-          ><a href="https://facebook.com" target="_blank"
+          ><a href="https://facebook.com" target="_blank" title="Github Profile"
             ><i class="fa-brands fa-facebook"></i
           ></a>
         </div>
       </div>
+      <p class="text-center text-muted">
+        This project was coded by Kimberly Brindle and it is
+        <a
+          class="text-decoration-none text-secondary"
+          href="https://github.com/kimmybrindle/portfolio-project"
+          title="Github Project Repository"
+          >open-sourced.</a
+        >
+      </p>
     </footer>
   </body>
 </html>

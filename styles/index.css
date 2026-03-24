@@ -99,6 +99,32 @@ h1 {
   border-radius: 5px;
 }
 
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 10px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -109,5 +135,8 @@ h1 {
   }
   .about-picture {
     margin-bottom: 5px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
